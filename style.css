@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'miama';
+    src: url(fonts/ofont.ru_Miama\ Nueva.ttf)
+}
+
+@font-face {
+    font-family: 'hero';
+    src: url(fonts/ofont.ru_Hero.ttf);
+}
+
+body {
+    background-color: #f6e6e6;
+}
+
+h1 {
+    color: #995757;
+}
+
+.container {
+    max-width: 1030px;
+    padding: 30px 15px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 33.3% 33.3% 33.3%;
+}
+
+.card__wrapper1 {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    height: 40vh;
+}
+
+.card__wrapper2 {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    height: 40vh;
+}
+
+.card__wrapper3 {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    height: 40vh;
+}
+
+.cards {
+    background-color: #fcf4f4;
+    width: 80%;
+    height: 35vh;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+}
+
+.inner__card_data-text-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card__data_text-title {
+    color: grey;
+    font-family: 'hero';
+}
+
+.card__data_input {
+    outline: none;
+    border: none;
+    background-color: #f6e6e6;
+    border-bottom: white 2px solid;
+    font-family: 'hero';
+}
+
+.card__title {
+    font-family: 'hero';
+    padding-top: 5px;
+}
+
+.card__input {
+    background-color: rgb(252, 244, 244);
+    outline: none;
+    width: 70%;
+    height: 15%;
+    border: none;
+    border-bottom: white 2px solid;
+    font-family: 'hero';
+    color: grey;
+}
+
+.newLi {
+    font-family: 'hero';
+    padding: 20px 0 0 0;
+    width: 70%;
+    text-transform: uppercase;
+    font-size: 12px;
+    list-style: none;
+    letter-spacing: 1px;
+}
+
+.newLi::marker {
+    text-align: right;
+}
+
+.deletebtn {
+    background-color: rgb(252, 244, 244);
+    color: rgb(200, 200, 200);
+    border: none;
+    transition: all .3s ease;
+    font-size: 10px;
+}
+
+.deletebtn:hover {
+    color: rgb(168, 168, 168);
+}
+
+.title {
+    font-family: 'miama';
+    max-width: 150px;
+}
